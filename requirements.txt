@@ -14,7 +14,7 @@ psutil
 lexica-api
 py-tgcalls==0.9.7
 pykeyboard
-pyrofork
+kurigram==2.2.26
 python-dotenv
 pyyaml
 requests

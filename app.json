@@ -1,6 +1,6 @@
 {
     "name": "𝐄𝗌ρ𝗋ⱺ 𝐌ᥙsiᥴ [ ɴᴏ ᴀᴅʂ ] 🕊",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "description": "A Telegram Music Player Bot, written in Python with Kurigram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
     "keywords": [
     "python3",
@@ -9,7 +9,7 @@
     "Espro",
     "MusicBot",
     "telegram-bot",
-    "pyrogram"
+    "kurigram"
     ],
     "env": {
       "API_ID": {
@@ -38,9 +38,9 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @EsproStringBot on Telegram.",
+        "description": "An optional Kurigram string session for an assistant userbot.",
         "value": "",
-        "required": true
+        "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "CHANNEL",
@@ -55,7 +55,7 @@
       "LOGGER_ID": {
         "description": "Private Group Bana Kar Uska Id Dalo",
         "value": "",
-        "required": true
+        "required": false
       }
     },
     "buildpacks": [
